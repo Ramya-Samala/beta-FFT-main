@@ -1,0 +1,114 @@
+[22:06:31.372] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4)
+[21:34:50.448] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4)
+[21:34:51.473] Start self_training
+[21:34:51.474] 5 iterations per epoch
+[22:38:29.939] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:38:30.439] Start self_training
+[22:38:30.439] 5 iterations per epoch
+[22:38:42.141] iteration 1: loss: 2.845197, model1_loss: 1.052712, model2_loss: 1.504668
+[22:38:42.771] iteration 2: loss: 1.820369, model1_loss: 0.643544, model2_loss: 1.033094
+[22:38:43.406] iteration 3: loss: 2.120947, model1_loss: 0.739002, model2_loss: 1.164350
+[22:38:44.034] iteration 4: loss: 2.084960, model1_loss: 0.650539, model2_loss: 1.240259
+[22:38:44.662] iteration 5: loss: 2.409076, model1_loss: 0.815795, model2_loss: 1.246590
+[22:05:48.822] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:14:49.197] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:14:49.824] Start self_training
+[22:14:49.824] 5 iterations per epoch
+[22:14:51.729] iteration 1: loss: 2.845197, model1_loss: 1.052712, model2_loss: 1.504668, lr1: 0.010000, lr2: 0.010000
+[22:14:52.360] iteration 2: loss: 7.165640, model1_loss: 3.011284, model2_loss: 3.034889, lr1: 0.010000, lr2: 0.010000
+[22:14:52.989] iteration 3: loss: 7.686287, model1_loss: 3.288888, model2_loss: 3.258776, lr1: 0.010000, lr2: 0.010000
+[22:14:53.620] iteration 4: loss: 6.832306, model1_loss: 2.895095, model2_loss: 3.064796, lr1: 0.010000, lr2: 0.010000
+[22:14:54.246] iteration 5: loss: 6.619224, model1_loss: 2.846166, model2_loss: 2.865997, lr1: 0.010000, lr2: 0.010000
+[22:14:56.754] iteration 6: loss: 6.711205, model1_loss: 2.823021, model2_loss: 3.007298, lr1: 0.010000, lr2: 0.010000
+[22:14:57.385] iteration 7: loss: 6.727458, model1_loss: 2.847984, model2_loss: 2.988173, lr1: 0.010000, lr2: 0.010000
+[22:14:58.009] iteration 8: loss: 6.510001, model1_loss: 2.803277, model2_loss: 2.848511, lr1: 0.010000, lr2: 0.010000
+[22:14:58.640] iteration 9: loss: 6.440465, model1_loss: 2.798751, model2_loss: 2.855364, lr1: 0.010000, lr2: 0.010000
+[22:14:59.267] iteration 10: loss: 6.110409, model1_loss: 2.701063, model2_loss: 2.635835, lr1: 0.010000, lr2: 0.010000
+[22:15:00.605] iteration 11: loss: 6.183083, model1_loss: 2.542699, model2_loss: 2.822273, lr1: 0.010000, lr2: 0.010000
+[22:15:01.236] iteration 12: loss: 6.206261, model1_loss: 2.686198, model2_loss: 2.725815, lr1: 0.010000, lr2: 0.010000
+[22:15:01.862] iteration 13: loss: 6.160589, model1_loss: 2.580266, model2_loss: 2.723883, lr1: 0.010000, lr2: 0.010000
+[22:15:02.486] iteration 14: loss: 6.022107, model1_loss: 2.526383, model2_loss: 2.696124, lr1: 0.010000, lr2: 0.010000
+[22:15:03.119] iteration 15: loss: 5.929953, model1_loss: 2.507022, model2_loss: 2.613971, lr1: 0.010000, lr2: 0.010000
+[22:15:04.505] iteration 16: loss: 5.912842, model1_loss: 2.493326, model2_loss: 2.636661, lr1: 0.010000, lr2: 0.010000
+[22:15:05.120] iteration 17: loss: 5.931541, model1_loss: 2.479949, model2_loss: 2.668244, lr1: 0.010000, lr2: 0.010000
+[22:15:05.729] iteration 18: loss: 5.584186, model1_loss: 2.395014, model2_loss: 2.429619, lr1: 0.010000, lr2: 0.010000
+[22:15:06.341] iteration 19: loss: 5.700104, model1_loss: 2.384397, model2_loss: 2.522362, lr1: 0.010000, lr2: 0.010000
+[22:15:06.952] iteration 20: loss: 5.661769, model1_loss: 2.412892, model2_loss: 2.464715, lr1: 0.010000, lr2: 0.010000
+[22:15:09.572] iteration 21: loss: 5.577296, model1_loss: 2.340050, model2_loss: 2.456132, lr1: 0.010000, lr2: 0.010000
+[22:15:10.188] iteration 22: loss: 5.631857, model1_loss: 2.358821, model2_loss: 2.462032, lr1: 0.010000, lr2: 0.010000
+[22:15:10.796] iteration 23: loss: 5.506238, model1_loss: 2.401454, model2_loss: 2.331934, lr1: 0.010000, lr2: 0.010000
+[22:15:11.406] iteration 24: loss: 5.762326, model1_loss: 2.420884, model2_loss: 2.562371, lr1: 0.010000, lr2: 0.010000
+[22:15:12.015] iteration 25: loss: 5.513327, model1_loss: 2.256136, model2_loss: 2.480834, lr1: 0.010000, lr2: 0.010000
+[22:15:14.485] iteration 26: loss: 5.613351, model1_loss: 2.491346, model2_loss: 2.404033, lr1: 0.010000, lr2: 0.010000
+[22:15:15.117] iteration 27: loss: 5.447582, model1_loss: 2.296009, model2_loss: 2.450680, lr1: 0.010000, lr2: 0.010000
+[22:15:15.735] iteration 28: loss: 5.659882, model1_loss: 2.504702, model2_loss: 2.379282, lr1: 0.010000, lr2: 0.010000
+[22:15:16.349] iteration 29: loss: 5.512940, model1_loss: 2.290150, model2_loss: 2.445087, lr1: 0.010000, lr2: 0.010000
+[22:15:16.962] iteration 30: loss: 5.476780, model1_loss: 2.290722, model2_loss: 2.353543, lr1: 0.010000, lr2: 0.010000
+[22:15:19.917] iteration 31: loss: 5.422812, model1_loss: 2.288135, model2_loss: 2.350837, lr1: 0.010000, lr2: 0.010000
+[22:15:20.536] iteration 32: loss: 5.815474, model1_loss: 2.361433, model2_loss: 2.610656, lr1: 0.010000, lr2: 0.010000
+[23:43:45.214] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:43:45.688] Start self_training
+[23:43:45.689] 5 iterations per epoch
+[23:43:47.233] iteration 1: loss: 2.614194, model1_loss: 0.847918, model2_loss: 1.503546, lr1: 0.010000, lr2: 0.010000
+[23:43:48.110] iteration 2: loss: 8.858567, model1_loss: 3.650547, model2_loss: 3.760145, lr1: 0.010000, lr2: 0.010000
+[23:43:48.942] iteration 3: loss: 6.798847, model1_loss: 2.938974, model2_loss: 2.919524, lr1: 0.010000, lr2: 0.010000
+[23:43:49.786] iteration 4: loss: 6.724571, model1_loss: 2.958871, model2_loss: 2.767253, lr1: 0.010000, lr2: 0.010000
+[23:43:50.622] iteration 5: loss: 6.607279, model1_loss: 2.791151, model2_loss: 2.886209, lr1: 0.010000, lr2: 0.010000
+[23:43:52.340] iteration 6: loss: 6.265213, model1_loss: 2.598753, model2_loss: 2.749449, lr1: 0.010000, lr2: 0.010000
+[23:43:53.790] iteration 7: loss: 6.434483, model1_loss: 2.867356, model2_loss: 2.702524, lr1: 0.010000, lr2: 0.010000
+[23:43:55.434] iteration 8: loss: 6.235998, model1_loss: 2.597726, model2_loss: 2.764194, lr1: 0.010000, lr2: 0.010000
+[23:43:57.803] iteration 9: loss: 6.299477, model1_loss: 2.638203, model2_loss: 2.833245, lr1: 0.010000, lr2: 0.010000
+[23:43:59.588] iteration 10: loss: 6.424098, model1_loss: 2.782201, model2_loss: 2.816947, lr1: 0.010000, lr2: 0.010000
+[23:44:01.566] iteration 11: loss: 6.817076, model1_loss: 2.794187, model2_loss: 3.161651, lr1: 0.010000, lr2: 0.010000
+[23:44:03.101] iteration 12: loss: 6.242462, model1_loss: 2.757116, model2_loss: 2.675236, lr1: 0.010000, lr2: 0.010000
+[23:44:04.812] iteration 13: loss: 6.225870, model1_loss: 2.766232, model2_loss: 2.643706, lr1: 0.010000, lr2: 0.010000
+[23:44:07.131] iteration 14: loss: 6.364222, model1_loss: 2.806760, model2_loss: 2.756422, lr1: 0.010000, lr2: 0.010000
+[23:44:08.295] iteration 15: loss: 6.117329, model1_loss: 2.626301, model2_loss: 2.681657, lr1: 0.010000, lr2: 0.010000
+[23:44:10.187] iteration 16: loss: 5.894375, model1_loss: 2.498420, model2_loss: 2.591678, lr1: 0.010000, lr2: 0.010000
+[23:44:12.064] iteration 17: loss: 5.705791, model1_loss: 2.491112, model2_loss: 2.453525, lr1: 0.010000, lr2: 0.010000
+[23:44:13.862] iteration 18: loss: 5.796459, model1_loss: 2.426976, model2_loss: 2.577084, lr1: 0.010000, lr2: 0.010000
+[23:44:15.329] iteration 19: loss: 5.761974, model1_loss: 2.402649, model2_loss: 2.520103, lr1: 0.010000, lr2: 0.010000
+[23:44:16.730] iteration 20: loss: 5.821160, model1_loss: 2.470549, model2_loss: 2.584101, lr1: 0.010000, lr2: 0.010000
+[23:44:18.508] iteration 21: loss: 5.768250, model1_loss: 2.448089, model2_loss: 2.590467, lr1: 0.010000, lr2: 0.010000
+[23:44:19.830] iteration 22: loss: 5.628645, model1_loss: 2.339293, model2_loss: 2.548441, lr1: 0.010000, lr2: 0.010000
+[23:44:21.235] iteration 23: loss: 5.691394, model1_loss: 2.405764, model2_loss: 2.575236, lr1: 0.010000, lr2: 0.010000
+[23:44:23.000] iteration 24: loss: 5.836096, model1_loss: 2.503829, model2_loss: 2.540421, lr1: 0.010000, lr2: 0.010000
+[23:44:25.169] iteration 25: loss: 5.578900, model1_loss: 2.396377, model2_loss: 2.455657, lr1: 0.010000, lr2: 0.010000
+[23:44:26.902] iteration 26: loss: 5.535383, model1_loss: 2.323464, model2_loss: 2.480968, lr1: 0.010000, lr2: 0.010000
+[23:44:28.027] iteration 27: loss: 5.661057, model1_loss: 2.437257, model2_loss: 2.504206, lr1: 0.010000, lr2: 0.010000
+[23:44:30.422] iteration 28: loss: 5.692098, model1_loss: 2.438859, model2_loss: 2.510491, lr1: 0.010000, lr2: 0.010000
+[23:44:32.528] iteration 29: loss: 5.839874, model1_loss: 2.462716, model2_loss: 2.659917, lr1: 0.010000, lr2: 0.010000
+[23:44:34.463] iteration 30: loss: 5.800413, model1_loss: 2.476197, model2_loss: 2.633456, lr1: 0.010000, lr2: 0.010000
+[23:44:35.820] iteration 31: loss: 5.497657, model1_loss: 2.369663, model2_loss: 2.531426, lr1: 0.010000, lr2: 0.010000
+[23:44:37.435] iteration 32: loss: 5.489266, model1_loss: 2.336196, model2_loss: 2.477645, lr1: 0.010000, lr2: 0.010000
+[23:44:39.329] iteration 33: loss: 5.276927, model1_loss: 2.309639, model2_loss: 2.316756, lr1: 0.010000, lr2: 0.010000
+[23:44:41.417] iteration 34: loss: 5.333051, model1_loss: 2.241564, model2_loss: 2.417480, lr1: 0.010000, lr2: 0.010000
+[23:44:43.331] iteration 35: loss: 5.253252, model1_loss: 2.166264, model2_loss: 2.468270, lr1: 0.010000, lr2: 0.010000
+[23:44:44.961] iteration 36: loss: 5.524041, model1_loss: 2.271226, model2_loss: 2.589984, lr1: 0.010000, lr2: 0.010000
+[23:44:46.376] iteration 37: loss: 5.336254, model1_loss: 2.275002, model2_loss: 2.433582, lr1: 0.010000, lr2: 0.010000
+[23:44:47.865] iteration 38: loss: 5.393529, model1_loss: 2.344929, model2_loss: 2.461077, lr1: 0.010000, lr2: 0.010000
+[23:44:49.428] iteration 39: loss: 5.521969, model1_loss: 2.306519, model2_loss: 2.544704, lr1: 0.010000, lr2: 0.010000
+[23:44:51.306] iteration 40: loss: 5.635486, model1_loss: 2.426941, model2_loss: 2.642442, lr1: 0.010000, lr2: 0.010000
+[23:46:47.468] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:46:47.961] Start self_training
+[23:46:47.961] 5 iterations per epoch
+[23:46:49.517] iteration 1: loss: 2.614194, model1_loss: 0.847918, model2_loss: 1.503546, lr1: 0.010000, lr2: 0.010000
+[23:46:50.367] iteration 2: loss: 8.858502, model1_loss: 3.650600, model2_loss: 3.760134, lr1: 0.010000, lr2: 0.010000
+[23:46:51.186] iteration 3: loss: 6.803159, model1_loss: 2.940440, model2_loss: 2.922493, lr1: 0.010000, lr2: 0.010000
+[23:46:52.038] iteration 4: loss: 6.754553, model1_loss: 2.978410, model2_loss: 2.779011, lr1: 0.010000, lr2: 0.010000
+[23:46:52.868] iteration 5: loss: 6.637730, model1_loss: 2.809627, model2_loss: 2.896331, lr1: 0.010000, lr2: 0.010000
+[23:46:53.707] iteration 6: loss: 6.331251, model1_loss: 2.616198, model2_loss: 2.801202, lr1: 0.010000, lr2: 0.010000
+[23:46:54.560] iteration 7: loss: 6.420806, model1_loss: 2.841097, model2_loss: 2.709682, lr1: 0.010000, lr2: 0.010000
+[23:46:55.398] iteration 8: loss: 6.221237, model1_loss: 2.609422, model2_loss: 2.728966, lr1: 0.010000, lr2: 0.010000
+[23:46:56.241] iteration 9: loss: 6.305105, model1_loss: 2.646755, model2_loss: 2.831333, lr1: 0.010000, lr2: 0.010000
+[23:46:57.121] iteration 10: loss: 6.430253, model1_loss: 2.794288, model2_loss: 2.812184, lr1: 0.010000, lr2: 0.010000
+[23:46:57.993] iteration 11: loss: 6.716715, model1_loss: 2.785952, model2_loss: 3.067154, lr1: 0.010000, lr2: 0.010000
+[23:46:58.832] iteration 12: loss: 6.326112, model1_loss: 2.722401, model2_loss: 2.801127, lr1: 0.010000, lr2: 0.010000
+[23:46:59.674] iteration 13: loss: 6.273956, model1_loss: 2.770624, model2_loss: 2.686754, lr1: 0.010000, lr2: 0.010000
+[23:47:00.494] iteration 14: loss: 6.383083, model1_loss: 2.810059, model2_loss: 2.769249, lr1: 0.010000, lr2: 0.010000
+[23:47:01.328] iteration 15: loss: 6.268910, model1_loss: 2.745422, model2_loss: 2.718738, lr1: 0.010000, lr2: 0.010000
+[23:47:02.177] iteration 16: loss: 5.951087, model1_loss: 2.529522, model2_loss: 2.613549, lr1: 0.010000, lr2: 0.010000
+[23:47:02.989] iteration 17: loss: 5.791358, model1_loss: 2.543998, model2_loss: 2.494857, lr1: 0.010000, lr2: 0.010000
+[23:47:03.822] iteration 18: loss: 5.848951, model1_loss: 2.458556, model2_loss: 2.598577, lr1: 0.010000, lr2: 0.010000
+[23:47:04.659] iteration 19: loss: 5.746174, model1_loss: 2.398193, model2_loss: 2.518835, lr1: 0.010000, lr2: 0.010000
+[23:47:05.508] iteration 20: loss: 5.762567, model1_loss: 2.442302, model2_loss: 2.537298, lr1: 0.010000, lr2: 0.010000

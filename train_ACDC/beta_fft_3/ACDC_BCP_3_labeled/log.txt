@@ -1,0 +1,238 @@
+[21:34:09.349] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4)
+[21:34:19.392] Loaded from ./Pre_model/label3/unet_best_model.pth
+[21:34:19.398] Start self_training
+[21:34:19.398] 5 iterations per epoch
+[22:05:03.471] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:10:56.911] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:10:57.396] Loaded from ./Pre_model/label3/unet_best_model.pth
+[22:10:57.400] Start self_training
+[22:10:57.400] 5 iterations per epoch
+[22:13:53.016] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:13:53.494] Loaded from ./Pre_model/label3/unet_best_model.pth
+[22:13:53.498] Start self_training
+[22:13:53.499] 5 iterations per epoch
+[22:13:55.384] iteration 1: loss: 3.035971, model1_loss: 1.194966, model2_loss: 1.554837, lr1: 0.010000, lr2: 0.010000
+[22:13:55.385] iteration 1: loss: 3.035971, ICT_loss: 0.023486, FFT_loss: 0.127883
+[22:13:55.385] iteration 1: loss: 3.035971, pseudo_supervision5: 0.062905, pseudo_supervision6: 0.064978
+[22:13:56.019] iteration 2: loss: 7.835526, model1_loss: 3.028385, model2_loss: 3.607810, lr1: 0.010000, lr2: 0.010000
+[22:13:56.020] iteration 2: loss: 7.835526, ICT_loss: 0.586725, FFT_loss: 1.388163
+[22:13:56.020] iteration 2: loss: 7.835526, pseudo_supervision5: 0.667233, pseudo_supervision6: 0.720930
+[22:13:56.656] iteration 3: loss: 6.986459, model1_loss: 3.019300, model2_loss: 2.954845, lr1: 0.010000, lr2: 0.010000
+[22:13:56.657] iteration 3: loss: 6.986459, ICT_loss: 0.497216, FFT_loss: 1.467612
+[22:13:56.657] iteration 3: loss: 6.986459, pseudo_supervision5: 0.744720, pseudo_supervision6: 0.722892
+[22:13:57.290] iteration 4: loss: 6.695422, model1_loss: 2.926053, model2_loss: 2.795361, lr1: 0.010000, lr2: 0.010000
+[22:13:57.291] iteration 4: loss: 6.695422, ICT_loss: 0.455515, FFT_loss: 1.454197
+[22:13:57.291] iteration 4: loss: 6.695422, pseudo_supervision5: 0.742985, pseudo_supervision6: 0.711212
+[22:13:57.917] iteration 5: loss: 6.566637, model1_loss: 2.713846, model2_loss: 2.893469, lr1: 0.010000, lr2: 0.010000
+[22:13:57.917] iteration 5: loss: 6.566637, ICT_loss: 0.463700, FFT_loss: 1.404951
+[22:13:57.917] iteration 5: loss: 6.566637, pseudo_supervision5: 0.674962, pseudo_supervision6: 0.729989
+[22:14:01.651] iteration 6: loss: 6.447938, model1_loss: 2.733774, model2_loss: 2.767915, lr1: 0.010000, lr2: 0.010000
+[22:14:01.652] iteration 6: loss: 6.447938, ICT_loss: 0.436035, FFT_loss: 1.219276
+[22:14:01.652] iteration 6: loss: 6.447938, pseudo_supervision5: 0.618568, pseudo_supervision6: 0.600708
+[22:14:02.300] iteration 7: loss: 6.142190, model1_loss: 2.579966, model2_loss: 2.693095, lr1: 0.010000, lr2: 0.010000
+[22:14:02.301] iteration 7: loss: 6.142190, ICT_loss: 0.411722, FFT_loss: 1.205294
+[22:14:02.301] iteration 7: loss: 6.142190, pseudo_supervision5: 0.609709, pseudo_supervision6: 0.595585
+[22:14:02.931] iteration 8: loss: 6.431899, model1_loss: 2.647306, model2_loss: 2.929888, lr1: 0.010000, lr2: 0.010000
+[22:14:02.932] iteration 8: loss: 6.431899, ICT_loss: 0.416516, FFT_loss: 1.395159
+[22:14:02.932] iteration 8: loss: 6.431899, pseudo_supervision5: 0.639031, pseudo_supervision6: 0.756128
+[22:14:03.569] iteration 9: loss: 5.886231, model1_loss: 2.512602, model2_loss: 2.557182, lr1: 0.010000, lr2: 0.010000
+[22:14:03.570] iteration 9: loss: 5.886231, ICT_loss: 0.396013, FFT_loss: 1.214512
+[22:14:03.570] iteration 9: loss: 5.886231, pseudo_supervision5: 0.622822, pseudo_supervision6: 0.591689
+[22:14:04.199] iteration 10: loss: 6.041149, model1_loss: 2.616150, model2_loss: 2.608228, lr1: 0.010000, lr2: 0.010000
+[22:14:04.200] iteration 10: loss: 6.041149, ICT_loss: 0.399288, FFT_loss: 1.334507
+[22:14:04.200] iteration 10: loss: 6.041149, pseudo_supervision5: 0.700745, pseudo_supervision6: 0.633762
+[22:14:07.584] iteration 11: loss: 5.919606, model1_loss: 2.444514, model2_loss: 2.639176, lr1: 0.010000, lr2: 0.010000
+[22:14:07.585] iteration 11: loss: 5.919606, ICT_loss: 0.407716, FFT_loss: 1.185239
+[22:14:07.585] iteration 11: loss: 5.919606, pseudo_supervision5: 0.580078, pseudo_supervision6: 0.605161
+[22:14:08.212] iteration 12: loss: 6.080417, model1_loss: 2.586842, model2_loss: 2.666868, lr1: 0.010000, lr2: 0.010000
+[22:14:08.213] iteration 12: loss: 6.080417, ICT_loss: 0.388488, FFT_loss: 1.251459
+[22:14:08.213] iteration 12: loss: 6.080417, pseudo_supervision5: 0.637357, pseudo_supervision6: 0.614102
+[22:14:08.841] iteration 13: loss: 5.915095, model1_loss: 2.449295, model2_loss: 2.610828, lr1: 0.010000, lr2: 0.010000
+[22:14:08.842] iteration 13: loss: 5.915095, ICT_loss: 0.374786, FFT_loss: 1.184069
+[22:14:08.842] iteration 13: loss: 5.915095, pseudo_supervision5: 0.594351, pseudo_supervision6: 0.589718
+[22:14:09.478] iteration 14: loss: 5.899840, model1_loss: 2.535429, model2_loss: 2.566905, lr1: 0.010000, lr2: 0.010000
+[22:14:09.478] iteration 14: loss: 5.899840, ICT_loss: 0.370220, FFT_loss: 1.252788
+[22:14:09.479] iteration 14: loss: 5.899840, pseudo_supervision5: 0.643301, pseudo_supervision6: 0.609487
+[22:14:10.109] iteration 15: loss: 5.692787, model1_loss: 2.411589, model2_loss: 2.500901, lr1: 0.010000, lr2: 0.010000
+[22:14:10.109] iteration 15: loss: 5.692787, ICT_loss: 0.364615, FFT_loss: 1.157246
+[22:14:10.110] iteration 15: loss: 5.692787, pseudo_supervision5: 0.571783, pseudo_supervision6: 0.585463
+[22:14:13.409] iteration 16: loss: 5.673831, model1_loss: 2.363249, model2_loss: 2.564499, lr1: 0.010000, lr2: 0.010000
+[22:14:13.409] iteration 16: loss: 5.673831, ICT_loss: 0.348831, FFT_loss: 1.149201
+[22:14:13.410] iteration 16: loss: 5.673831, pseudo_supervision5: 0.570523, pseudo_supervision6: 0.578678
+[22:14:14.034] iteration 17: loss: 5.651875, model1_loss: 2.334777, model2_loss: 2.565314, lr1: 0.010000, lr2: 0.010000
+[22:14:14.034] iteration 17: loss: 5.651875, ICT_loss: 0.353450, FFT_loss: 1.113140
+[22:14:14.035] iteration 17: loss: 5.651875, pseudo_supervision5: 0.551240, pseudo_supervision6: 0.561899
+[22:14:14.663] iteration 18: loss: 5.626245, model1_loss: 2.409528, model2_loss: 2.456289, lr1: 0.010000, lr2: 0.010000
+[22:14:14.664] iteration 18: loss: 5.626245, ICT_loss: 0.346082, FFT_loss: 1.150966
+[22:14:14.664] iteration 18: loss: 5.626245, pseudo_supervision5: 0.569690, pseudo_supervision6: 0.581276
+[22:14:15.294] iteration 19: loss: 5.676907, model1_loss: 2.350502, model2_loss: 2.559713, lr1: 0.010000, lr2: 0.010000
+[22:14:15.295] iteration 19: loss: 5.676907, ICT_loss: 0.344686, FFT_loss: 1.120855
+[22:14:15.295] iteration 19: loss: 5.676907, pseudo_supervision5: 0.566932, pseudo_supervision6: 0.553923
+[22:14:15.918] iteration 20: loss: 5.809353, model1_loss: 2.450215, model2_loss: 2.644217, lr1: 0.010000, lr2: 0.010000
+[22:14:15.919] iteration 20: loss: 5.809353, ICT_loss: 0.311700, FFT_loss: 1.103682
+[22:14:15.919] iteration 20: loss: 5.809353, pseudo_supervision5: 0.563680, pseudo_supervision6: 0.540002
+[22:14:18.957] iteration 21: loss: 5.682573, model1_loss: 2.364418, model2_loss: 2.596619, lr1: 0.010000, lr2: 0.010000
+[22:14:18.957] iteration 21: loss: 5.682573, ICT_loss: 0.310627, FFT_loss: 1.170004
+[22:14:18.957] iteration 21: loss: 5.682573, pseudo_supervision5: 0.604984, pseudo_supervision6: 0.565020
+[22:14:19.590] iteration 22: loss: 5.473820, model1_loss: 2.379070, model2_loss: 2.394733, lr1: 0.010000, lr2: 0.010000
+[22:14:19.590] iteration 22: loss: 5.473820, ICT_loss: 0.356269, FFT_loss: 1.126310
+[22:14:19.590] iteration 22: loss: 5.473820, pseudo_supervision5: 0.581616, pseudo_supervision6: 0.544694
+[23:38:31.821] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:38:32.317] Loaded from ./Pre_model/label3/unet_best_model.pth
+[23:38:32.321] Start self_training
+[23:38:32.321] 5 iterations per epoch
+[23:38:35.342] iteration 1: loss: 2.730918, model1_loss: 0.956924, model2_loss: 1.517324, lr1: 0.010000, lr2: 0.010000
+[23:38:35.342] iteration 1: loss: 2.730918, ICT_loss: 0.021292, FFT_loss: 0.099471
+[23:38:35.343] iteration 1: loss: 2.730918, pseudo_supervision5: 0.049561, pseudo_supervision6: 0.049909
+[23:38:37.000] iteration 2: loss: 8.189561, model1_loss: 3.278774, model2_loss: 3.735393, lr1: 0.010000, lr2: 0.010000
+[23:38:37.001] iteration 2: loss: 8.189561, ICT_loss: 0.579631, FFT_loss: 1.447555
+[23:38:37.001] iteration 2: loss: 8.189561, pseudo_supervision5: 0.722919, pseudo_supervision6: 0.724636
+[23:38:38.536] iteration 3: loss: 6.470088, model1_loss: 2.860416, model2_loss: 2.646579, lr1: 0.010000, lr2: 0.010000
+[23:38:38.536] iteration 3: loss: 6.470088, ICT_loss: 0.466528, FFT_loss: 1.266260
+[23:38:38.536] iteration 3: loss: 6.470088, pseudo_supervision5: 0.644731, pseudo_supervision6: 0.621528
+[23:38:40.802] iteration 4: loss: 6.724366, model1_loss: 2.725516, model2_loss: 3.101550, lr1: 0.010000, lr2: 0.010000
+[23:38:40.802] iteration 4: loss: 6.724366, ICT_loss: 0.415608, FFT_loss: 1.466340
+[23:38:40.803] iteration 4: loss: 6.724366, pseudo_supervision5: 0.720086, pseudo_supervision6: 0.746253
+[23:38:42.810] iteration 5: loss: 6.350155, model1_loss: 2.685818, model2_loss: 2.817161, lr1: 0.010000, lr2: 0.010000
+[23:38:42.811] iteration 5: loss: 6.350155, ICT_loss: 0.415145, FFT_loss: 1.432356
+[23:38:42.811] iteration 5: loss: 6.350155, pseudo_supervision5: 0.702578, pseudo_supervision6: 0.729777
+[23:38:45.438] iteration 6: loss: 6.480265, model1_loss: 2.663184, model2_loss: 2.915427, lr1: 0.010000, lr2: 0.010000
+[23:38:45.439] iteration 6: loss: 6.480265, ICT_loss: 0.433419, FFT_loss: 1.369578
+[23:38:45.439] iteration 6: loss: 6.480265, pseudo_supervision5: 0.625228, pseudo_supervision6: 0.744351
+[23:38:48.006] iteration 7: loss: 6.141457, model1_loss: 2.618626, model2_loss: 2.713222, lr1: 0.010000, lr2: 0.010000
+[23:38:48.006] iteration 7: loss: 6.141457, ICT_loss: 0.397545, FFT_loss: 1.321589
+[23:38:48.007] iteration 7: loss: 6.141457, pseudo_supervision5: 0.672996, pseudo_supervision6: 0.648593
+[23:38:50.474] iteration 8: loss: 6.039706, model1_loss: 2.542108, model2_loss: 2.671237, lr1: 0.010000, lr2: 0.010000
+[23:38:50.475] iteration 8: loss: 6.039706, ICT_loss: 0.397981, FFT_loss: 1.239828
+[23:38:50.475] iteration 8: loss: 6.039706, pseudo_supervision5: 0.626590, pseudo_supervision6: 0.613238
+[23:38:52.486] iteration 9: loss: 6.283315, model1_loss: 2.629069, model2_loss: 2.810363, lr1: 0.010000, lr2: 0.010000
+[23:38:52.486] iteration 9: loss: 6.283315, ICT_loss: 0.410498, FFT_loss: 1.323299
+[23:38:52.486] iteration 9: loss: 6.283315, pseudo_supervision5: 0.632379, pseudo_supervision6: 0.690920
+[23:38:54.678] iteration 10: loss: 6.181485, model1_loss: 2.791883, model2_loss: 2.589021, lr1: 0.010000, lr2: 0.010000
+[23:38:54.679] iteration 10: loss: 6.181485, ICT_loss: 0.395322, FFT_loss: 1.390721
+[23:38:54.679] iteration 10: loss: 6.181485, pseudo_supervision5: 0.753623, pseudo_supervision6: 0.637098
+[23:38:56.565] iteration 11: loss: 6.133159, model1_loss: 2.618160, model2_loss: 2.670047, lr1: 0.010000, lr2: 0.010000
+[23:38:56.566] iteration 11: loss: 6.133159, ICT_loss: 0.377675, FFT_loss: 1.270865
+[23:38:56.566] iteration 11: loss: 6.133159, pseudo_supervision5: 0.653321, pseudo_supervision6: 0.617544
+[23:38:57.762] iteration 12: loss: 5.800402, model1_loss: 2.469821, model2_loss: 2.553529, lr1: 0.010000, lr2: 0.010000
+[23:38:57.762] iteration 12: loss: 5.800402, ICT_loss: 0.377195, FFT_loss: 1.190317
+[23:38:57.763] iteration 12: loss: 5.800402, pseudo_supervision5: 0.589909, pseudo_supervision6: 0.600408
+[23:42:52.979] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:42:53.475] Loaded from ./Pre_model/label3/unet_best_model.pth
+[23:42:53.479] Start self_training
+[23:42:53.479] 5 iterations per epoch
+[23:42:54.814] iteration 1: loss: 2.730918, model1_loss: 0.956924, model2_loss: 1.517324, lr1: 0.010000, lr2: 0.010000
+[23:42:54.815] iteration 1: loss: 2.730918, ICT_loss: 0.021292, FFT_loss: 0.099471
+[23:42:54.815] iteration 1: loss: 2.730918, pseudo_supervision5: 0.049561, pseudo_supervision6: 0.049909
+[23:42:55.452] iteration 2: loss: 8.189652, model1_loss: 3.278921, model2_loss: 3.735320, lr1: 0.010000, lr2: 0.010000
+[23:42:55.452] iteration 2: loss: 8.189652, ICT_loss: 0.579701, FFT_loss: 1.447527
+[23:42:55.452] iteration 2: loss: 8.189652, pseudo_supervision5: 0.722901, pseudo_supervision6: 0.724627
+[23:42:56.057] iteration 3: loss: 6.471814, model1_loss: 2.859980, model2_loss: 2.649100, lr1: 0.010000, lr2: 0.010000
+[23:42:56.058] iteration 3: loss: 6.471814, ICT_loss: 0.466430, FFT_loss: 1.266461
+[23:42:56.058] iteration 3: loss: 6.471814, pseudo_supervision5: 0.644782, pseudo_supervision6: 0.621679
+[23:42:56.670] iteration 4: loss: 6.716778, model1_loss: 2.720771, model2_loss: 3.098886, lr1: 0.010000, lr2: 0.010000
+[23:42:56.670] iteration 4: loss: 6.716778, ICT_loss: 0.415931, FFT_loss: 1.462170
+[23:42:56.671] iteration 4: loss: 6.716778, pseudo_supervision5: 0.717644, pseudo_supervision6: 0.744526
+[23:42:57.273] iteration 5: loss: 6.360316, model1_loss: 2.679039, model2_loss: 2.833544, lr1: 0.010000, lr2: 0.010000
+[23:42:57.274] iteration 5: loss: 6.360316, ICT_loss: 0.415195, FFT_loss: 1.435503
+[23:42:57.274] iteration 5: loss: 6.360316, pseudo_supervision5: 0.701225, pseudo_supervision6: 0.734278
+[23:42:57.880] iteration 6: loss: 6.472841, model1_loss: 2.666574, model2_loss: 2.899576, lr1: 0.010000, lr2: 0.010000
+[23:42:57.881] iteration 6: loss: 6.472841, ICT_loss: 0.437410, FFT_loss: 1.336915
+[23:42:57.881] iteration 6: loss: 6.472841, pseudo_supervision5: 0.622464, pseudo_supervision6: 0.714451
+[23:42:58.502] iteration 7: loss: 6.279140, model1_loss: 2.741098, model2_loss: 2.728186, lr1: 0.010000, lr2: 0.010000
+[23:42:58.503] iteration 7: loss: 6.279140, ICT_loss: 0.397669, FFT_loss: 1.403032
+[23:42:58.503] iteration 7: loss: 6.279140, pseudo_supervision5: 0.741548, pseudo_supervision6: 0.661484
+[23:42:59.111] iteration 8: loss: 6.149222, model1_loss: 2.559427, model2_loss: 2.761961, lr1: 0.010000, lr2: 0.010000
+[23:42:59.112] iteration 8: loss: 6.149222, ICT_loss: 0.401124, FFT_loss: 1.324163
+[23:42:59.112] iteration 8: loss: 6.149222, pseudo_supervision5: 0.640163, pseudo_supervision6: 0.684000
+[23:42:59.746] iteration 9: loss: 6.480008, model1_loss: 2.803373, model2_loss: 2.830827, lr1: 0.010000, lr2: 0.010000
+[23:42:59.747] iteration 9: loss: 6.480008, ICT_loss: 0.415857, FFT_loss: 1.501683
+[23:42:59.747] iteration 9: loss: 6.480008, pseudo_supervision5: 0.753083, pseudo_supervision6: 0.748599
+[23:43:00.370] iteration 10: loss: 6.330804, model1_loss: 2.807459, model2_loss: 2.707854, lr1: 0.010000, lr2: 0.010000
+[23:43:00.371] iteration 10: loss: 6.330804, ICT_loss: 0.407094, FFT_loss: 1.499325
+[23:43:00.371] iteration 10: loss: 6.330804, pseudo_supervision5: 0.752692, pseudo_supervision6: 0.746633
+[23:43:00.951] iteration 11: loss: 6.497620, model1_loss: 2.759925, model2_loss: 2.902519, lr1: 0.010000, lr2: 0.010000
+[23:43:00.951] iteration 11: loss: 6.497620, ICT_loss: 0.391985, FFT_loss: 1.398207
+[23:43:00.951] iteration 11: loss: 6.497620, pseudo_supervision5: 0.739731, pseudo_supervision6: 0.658475
+[23:43:01.565] iteration 12: loss: 5.991926, model1_loss: 2.607028, model2_loss: 2.574419, lr1: 0.010000, lr2: 0.010000
+[23:43:01.566] iteration 12: loss: 5.991926, ICT_loss: 0.393679, FFT_loss: 1.220725
+[23:43:01.566] iteration 12: loss: 5.991926, pseudo_supervision5: 0.623188, pseudo_supervision6: 0.597536
+[23:43:02.167] iteration 13: loss: 6.089780, model1_loss: 2.690195, model2_loss: 2.609581, lr1: 0.010000, lr2: 0.010000
+[23:43:02.167] iteration 13: loss: 6.089780, ICT_loss: 0.380430, FFT_loss: 1.337620
+[23:43:02.168] iteration 13: loss: 6.089780, pseudo_supervision5: 0.722802, pseudo_supervision6: 0.614818
+[23:43:04.865] iteration 14: loss: 6.130093, model1_loss: 2.506560, model2_loss: 2.808357, lr1: 0.010000, lr2: 0.010000
+[23:43:04.866] iteration 14: loss: 6.130093, ICT_loss: 0.384933, FFT_loss: 1.366577
+[23:43:04.866] iteration 14: loss: 6.130093, pseudo_supervision5: 0.626345, pseudo_supervision6: 0.740232
+[23:43:06.598] iteration 15: loss: 6.026562, model1_loss: 2.617353, model2_loss: 2.653344, lr1: 0.010000, lr2: 0.010000
+[23:43:06.598] iteration 15: loss: 6.026562, ICT_loss: 0.354744, FFT_loss: 1.332178
+[23:43:06.598] iteration 15: loss: 6.026562, pseudo_supervision5: 0.698504, pseudo_supervision6: 0.633674
+[23:43:08.558] iteration 16: loss: 5.932417, model1_loss: 2.529927, model2_loss: 2.632749, lr1: 0.010000, lr2: 0.010000
+[23:43:08.558] iteration 16: loss: 5.932417, ICT_loss: 0.371013, FFT_loss: 1.199055
+[23:43:08.558] iteration 16: loss: 5.932417, pseudo_supervision5: 0.608873, pseudo_supervision6: 0.590182
+[23:43:10.140] iteration 17: loss: 5.653609, model1_loss: 2.409356, model2_loss: 2.477553, lr1: 0.010000, lr2: 0.010000
+[23:43:10.141] iteration 17: loss: 5.653609, ICT_loss: 0.364742, FFT_loss: 1.156372
+[23:43:10.141] iteration 17: loss: 5.653609, pseudo_supervision5: 0.578850, pseudo_supervision6: 0.577522
+[23:43:12.053] iteration 18: loss: 5.777099, model1_loss: 2.410956, model2_loss: 2.553271, lr1: 0.010000, lr2: 0.010000
+[23:43:12.054] iteration 18: loss: 5.777099, ICT_loss: 0.357477, FFT_loss: 1.109134
+[23:43:12.054] iteration 18: loss: 5.777099, pseudo_supervision5: 0.551783, pseudo_supervision6: 0.557351
+[23:43:14.275] iteration 19: loss: 5.523136, model1_loss: 2.410858, model2_loss: 2.398961, lr1: 0.010000, lr2: 0.010000
+[23:43:14.275] iteration 19: loss: 5.523136, ICT_loss: 0.336511, FFT_loss: 1.109421
+[23:43:14.276] iteration 19: loss: 5.523136, pseudo_supervision5: 0.550303, pseudo_supervision6: 0.559118
+[23:43:15.441] iteration 20: loss: 5.628843, model1_loss: 2.406618, model2_loss: 2.451940, lr1: 0.010000, lr2: 0.010000
+[23:43:15.442] iteration 20: loss: 5.628843, ICT_loss: 0.360416, FFT_loss: 1.145347
+[23:43:15.442] iteration 20: loss: 5.628843, pseudo_supervision5: 0.570126, pseudo_supervision6: 0.575220
+[23:43:17.187] iteration 21: loss: 5.776667, model1_loss: 2.435658, model2_loss: 2.560971, lr1: 0.010000, lr2: 0.010000
+[23:43:17.187] iteration 21: loss: 5.776667, ICT_loss: 0.326972, FFT_loss: 1.159953
+[23:43:17.187] iteration 21: loss: 5.776667, pseudo_supervision5: 0.582154, pseudo_supervision6: 0.577799
+[23:43:19.011] iteration 22: loss: 5.494492, model1_loss: 2.380127, model2_loss: 2.380779, lr1: 0.010000, lr2: 0.010000
+[23:43:19.012] iteration 22: loss: 5.494492, ICT_loss: 0.325045, FFT_loss: 1.091932
+[23:43:19.012] iteration 22: loss: 5.494492, pseudo_supervision5: 0.566520, pseudo_supervision6: 0.525412
+[23:43:21.047] iteration 23: loss: 5.624176, model1_loss: 2.419188, model2_loss: 2.440376, lr1: 0.010000, lr2: 0.010000
+[23:43:21.048] iteration 23: loss: 5.624176, ICT_loss: 0.338457, FFT_loss: 1.085001
+[23:43:21.048] iteration 23: loss: 5.624176, pseudo_supervision5: 0.563729, pseudo_supervision6: 0.521273
+[23:43:22.406] iteration 24: loss: 5.645022, model1_loss: 2.378659, model2_loss: 2.440712, lr1: 0.010000, lr2: 0.010000
+[23:43:22.407] iteration 24: loss: 5.645022, ICT_loss: 0.346125, FFT_loss: 1.102297
+[23:43:22.407] iteration 24: loss: 5.645022, pseudo_supervision5: 0.573317, pseudo_supervision6: 0.528980
+[23:43:24.322] iteration 25: loss: 5.564596, model1_loss: 2.418320, model2_loss: 2.391501, lr1: 0.010000, lr2: 0.010000
+[23:43:24.322] iteration 25: loss: 5.564596, ICT_loss: 0.346152, FFT_loss: 1.092000
+[23:43:24.322] iteration 25: loss: 5.564596, pseudo_supervision5: 0.561823, pseudo_supervision6: 0.530177
+[23:43:25.279] iteration 26: loss: 5.744491, model1_loss: 2.398306, model2_loss: 2.583613, lr1: 0.010000, lr2: 0.010000
+[23:43:25.280] iteration 26: loss: 5.744491, ICT_loss: 0.296718, FFT_loss: 1.183369
+[23:43:25.280] iteration 26: loss: 5.744491, pseudo_supervision5: 0.595787, pseudo_supervision6: 0.587582
+[23:43:26.542] iteration 27: loss: 5.573336, model1_loss: 2.428811, model2_loss: 2.449405, lr1: 0.010000, lr2: 0.010000
+[23:43:26.543] iteration 27: loss: 5.573336, ICT_loss: 0.307680, FFT_loss: 1.180913
+[23:43:26.543] iteration 27: loss: 5.573336, pseudo_supervision5: 0.596836, pseudo_supervision6: 0.584078
+[23:43:28.431] iteration 28: loss: 5.409222, model1_loss: 2.339387, model2_loss: 2.382584, lr1: 0.010000, lr2: 0.010000
+[23:43:28.431] iteration 28: loss: 5.409222, ICT_loss: 0.303343, FFT_loss: 1.113891
+[23:43:28.432] iteration 28: loss: 5.409222, pseudo_supervision5: 0.588027, pseudo_supervision6: 0.525864
+[23:43:29.800] iteration 29: loss: 5.526651, model1_loss: 2.385984, model2_loss: 2.467340, lr1: 0.010000, lr2: 0.010000
+[23:43:29.800] iteration 29: loss: 5.526651, ICT_loss: 0.277157, FFT_loss: 1.096469
+[23:43:29.801] iteration 29: loss: 5.526651, pseudo_supervision5: 0.581122, pseudo_supervision6: 0.515347
+[23:43:31.674] iteration 30: loss: 5.514927, model1_loss: 2.375441, model2_loss: 2.383367, lr1: 0.010000, lr2: 0.010000
+[23:43:31.674] iteration 30: loss: 5.514927, ICT_loss: 0.282604, FFT_loss: 1.085791
+[23:43:31.675] iteration 30: loss: 5.514927, pseudo_supervision5: 0.576604, pseudo_supervision6: 0.509187
+[23:46:33.014] Namespace(root_path='../data/ACDC', exp='BCP', model='unet', pre_iterations=10000, max_iterations=30000, batch_size=24, deterministic=1, base_lr=0.01, image_size=[256, 256], seed=1337, num_classes=4, labeled_bs=12, labelnum=3, u_weight=0.5, gpu='7', consistency=0.1, consistency_rampup=200.0, magnitude=6.0, s_param=6, patch_size=64, h_size=4, w_size=4, top_num=4, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:46:33.511] Loaded from ./Pre_model/label3/unet_best_model.pth
+[23:46:33.515] Start self_training
+[23:46:33.516] 5 iterations per epoch
+[23:46:34.838] iteration 1: loss: 2.730918, model1_loss: 0.956924, model2_loss: 1.517324, lr1: 0.010000, lr2: 0.010000
+[23:46:34.838] iteration 1: loss: 2.730918, ICT_loss: 0.021292, FFT_loss: 0.099471
+[23:46:34.839] iteration 1: loss: 2.730918, pseudo_supervision5: 0.049561, pseudo_supervision6: 0.049909
+[23:46:35.461] iteration 2: loss: 8.189789, model1_loss: 3.279001, model2_loss: 3.735366, lr1: 0.010000, lr2: 0.010000
+[23:46:35.461] iteration 2: loss: 8.189789, ICT_loss: 0.579718, FFT_loss: 1.447539
+[23:46:35.462] iteration 2: loss: 8.189789, pseudo_supervision5: 0.722926, pseudo_supervision6: 0.724612
+[23:46:36.048] iteration 3: loss: 6.466220, model1_loss: 2.857640, model2_loss: 2.645626, lr1: 0.010000, lr2: 0.010000
+[23:46:36.049] iteration 3: loss: 6.466220, ICT_loss: 0.466340, FFT_loss: 1.265966
+[23:46:36.049] iteration 3: loss: 6.466220, pseudo_supervision5: 0.644612, pseudo_supervision6: 0.621353
+[23:46:36.685] iteration 4: loss: 6.726557, model1_loss: 2.723731, model2_loss: 3.105933, lr1: 0.010000, lr2: 0.010000
+[23:46:36.685] iteration 4: loss: 6.726557, ICT_loss: 0.415526, FFT_loss: 1.464846
+[23:46:36.685] iteration 4: loss: 6.726557, pseudo_supervision5: 0.719149, pseudo_supervision6: 0.745697
+[23:46:37.278] iteration 5: loss: 6.349046, model1_loss: 2.680793, model2_loss: 2.821848, lr1: 0.010000, lr2: 0.010000
+[23:46:37.279] iteration 5: loss: 6.349046, ICT_loss: 0.414522, FFT_loss: 1.434032
+[23:46:37.279] iteration 5: loss: 6.349046, pseudo_supervision5: 0.702565, pseudo_supervision6: 0.731467
+[23:46:37.856] iteration 6: loss: 6.477395, model1_loss: 2.664258, model2_loss: 2.909715, lr1: 0.010000, lr2: 0.010000
+[23:46:37.857] iteration 6: loss: 6.477395, ICT_loss: 0.434809, FFT_loss: 1.358112
+[23:46:37.857] iteration 6: loss: 6.477395, pseudo_supervision5: 0.622430, pseudo_supervision6: 0.735682
+[23:46:38.487] iteration 7: loss: 6.200908, model1_loss: 2.665357, model2_loss: 2.720738, lr1: 0.010000, lr2: 0.010000
+[23:46:38.487] iteration 7: loss: 6.200908, ICT_loss: 0.400748, FFT_loss: 1.351348
+[23:46:38.488] iteration 7: loss: 6.200908, pseudo_supervision5: 0.698351, pseudo_supervision6: 0.652997
