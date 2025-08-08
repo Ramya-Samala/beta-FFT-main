@@ -1,0 +1,189 @@
+[21:17:30.627] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359)
+[21:17:32.005] Start pre_training
+[21:17:32.005] 25 iterations per epoch
+[21:33:06.235] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359)
+[21:33:06.392] Start pre_training
+[21:33:06.392] 25 iterations per epoch
+[22:01:52.792] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:01:53.810] Start pre_training
+[22:01:53.811] 25 iterations per epoch
+[22:02:05.173] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:02:05.336] Start pre_training
+[22:02:05.336] 25 iterations per epoch
+[22:02:07.647] iteration 1: loss: 2.312021, mix_dice: 1.625611, mix_ce: 2.998432, lr: 0.010000
+[22:02:07.675] iteration 2: loss: 1.732543, mix_dice: 1.521103, mix_ce: 1.943982, lr: 0.010000
+[22:02:07.701] iteration 3: loss: 1.140860, mix_dice: 1.404118, mix_ce: 0.877602, lr: 0.010000
+[22:02:07.727] iteration 4: loss: 0.968865, mix_dice: 1.460171, mix_ce: 0.477559, lr: 0.010000
+[22:02:08.893] iteration 5: loss: 1.011511, mix_dice: 1.473197, mix_ce: 0.549825, lr: 0.010000
+[22:02:08.915] iteration 6: loss: 0.906375, mix_dice: 1.475219, mix_ce: 0.337531, lr: 0.010000
+[22:02:08.939] iteration 7: loss: 0.901757, mix_dice: 1.477459, mix_ce: 0.326054, lr: 0.010000
+[22:02:08.963] iteration 8: loss: 1.034084, mix_dice: 1.495345, mix_ce: 0.572824, lr: 0.010000
+[22:02:30.105] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:02:30.274] Start pre_training
+[22:02:30.275] 25 iterations per epoch
+[22:02:31.129] iteration 1: loss: 2.312021, mix_dice: 1.625611, mix_ce: 2.998432, lr: 0.010000
+[22:02:31.156] iteration 2: loss: 1.732550, mix_dice: 1.521102, mix_ce: 1.943998, lr: 0.010000
+[22:02:31.187] iteration 3: loss: 1.140760, mix_dice: 1.403984, mix_ce: 0.877536, lr: 0.010000
+[22:02:31.219] iteration 4: loss: 0.970957, mix_dice: 1.461402, mix_ce: 0.480513, lr: 0.010000
+[22:02:31.251] iteration 5: loss: 1.007146, mix_dice: 1.472383, mix_ce: 0.541910, lr: 0.010000
+[22:02:31.282] iteration 6: loss: 0.907535, mix_dice: 1.476011, mix_ce: 0.339058, lr: 0.010000
+[22:02:31.309] iteration 7: loss: 0.904849, mix_dice: 1.479973, mix_ce: 0.329726, lr: 0.010000
+[22:02:31.339] iteration 8: loss: 1.017908, mix_dice: 1.494700, mix_ce: 0.541115, lr: 0.010000
+[22:40:01.146] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[22:40:01.310] Start pre_training
+[22:40:01.311] 25 iterations per epoch
+[22:40:03.448] iteration 1: loss: 2.322350, mix_dice: 1.646775, mix_ce: 2.997925, lr: 0.010000
+[22:40:04.354] iteration 2: loss: 1.760477, mix_dice: 1.568000, mix_ce: 1.952954, lr: 0.010000
+[22:40:05.639] iteration 3: loss: 1.240420, mix_dice: 1.455492, mix_ce: 1.025347, lr: 0.010000
+[22:40:06.851] iteration 4: loss: 1.023148, mix_dice: 1.384723, mix_ce: 0.661573, lr: 0.010000
+[22:40:08.287] iteration 5: loss: 0.985129, mix_dice: 1.482174, mix_ce: 0.488084, lr: 0.010000
+[22:40:10.005] iteration 6: loss: 1.057913, mix_dice: 1.499652, mix_ce: 0.616174, lr: 0.010000
+[22:40:11.556] iteration 7: loss: 1.089927, mix_dice: 1.497867, mix_ce: 0.681988, lr: 0.010000
+[23:00:21.792] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:00:21.959] Start pre_training
+[23:00:21.960] 25 iterations per epoch
+[23:00:22.635] iteration 1: loss: 2.322350, mix_dice: 1.646775, mix_ce: 2.997925, lr: 0.010000
+[23:00:22.800] iteration 2: loss: 1.760497, mix_dice: 1.568004, mix_ce: 1.952990, lr: 0.010000
+[23:00:22.944] iteration 3: loss: 1.240394, mix_dice: 1.455459, mix_ce: 1.025330, lr: 0.010000
+[23:00:23.131] iteration 4: loss: 1.022756, mix_dice: 1.384146, mix_ce: 0.661367, lr: 0.010000
+[23:00:23.267] iteration 5: loss: 0.983329, mix_dice: 1.481847, mix_ce: 0.484811, lr: 0.010000
+[23:00:23.372] iteration 6: loss: 1.063651, mix_dice: 1.502334, mix_ce: 0.624968, lr: 0.010000
+[23:00:23.516] iteration 7: loss: 1.096112, mix_dice: 1.500124, mix_ce: 0.692100, lr: 0.010000
+[23:00:23.871] iteration 8: loss: 0.894192, mix_dice: 1.501435, mix_ce: 0.286950, lr: 0.010000
+[23:00:24.755] iteration 9: loss: 1.049359, mix_dice: 1.499691, mix_ce: 0.599027, lr: 0.010000
+[23:00:25.946] iteration 10: loss: 0.869915, mix_dice: 1.492675, mix_ce: 0.247155, lr: 0.010000
+[23:00:27.651] iteration 11: loss: 0.911090, mix_dice: 1.486847, mix_ce: 0.335332, lr: 0.010000
+[23:00:29.035] iteration 12: loss: 0.869726, mix_dice: 1.464351, mix_ce: 0.275100, lr: 0.010000
+[23:00:30.089] iteration 13: loss: 0.938377, mix_dice: 1.464552, mix_ce: 0.412202, lr: 0.010000
+[23:00:31.327] iteration 14: loss: 0.882192, mix_dice: 1.390658, mix_ce: 0.373726, lr: 0.010000
+[23:00:32.407] iteration 15: loss: 0.897374, mix_dice: 1.361314, mix_ce: 0.433433, lr: 0.010000
+[23:00:33.741] iteration 16: loss: 0.852645, mix_dice: 1.351753, mix_ce: 0.353536, lr: 0.010000
+[23:00:34.613] iteration 17: loss: 0.801539, mix_dice: 1.326610, mix_ce: 0.276468, lr: 0.010000
+[23:00:35.753] iteration 18: loss: 0.798752, mix_dice: 1.313867, mix_ce: 0.283638, lr: 0.010000
+[23:00:37.032] iteration 19: loss: 0.840089, mix_dice: 1.345914, mix_ce: 0.334264, lr: 0.010000
+[23:00:38.393] iteration 20: loss: 0.960665, mix_dice: 1.397902, mix_ce: 0.523428, lr: 0.010000
+[23:00:39.616] iteration 21: loss: 0.950258, mix_dice: 1.407968, mix_ce: 0.492548, lr: 0.010000
+[23:00:40.951] iteration 22: loss: 0.868178, mix_dice: 1.366632, mix_ce: 0.369723, lr: 0.010000
+[23:00:42.164] iteration 23: loss: 0.900418, mix_dice: 1.384039, mix_ce: 0.416797, lr: 0.010000
+[23:00:43.114] iteration 24: loss: 0.941823, mix_dice: 1.482367, mix_ce: 0.401279, lr: 0.010000
+[23:00:44.082] iteration 25: loss: 0.903339, mix_dice: 1.400147, mix_ce: 0.406530, lr: 0.010000
+[23:00:45.009] iteration 26: loss: 0.839109, mix_dice: 1.424093, mix_ce: 0.254125, lr: 0.010000
+[23:00:45.669] iteration 27: loss: 0.975520, mix_dice: 1.416809, mix_ce: 0.534231, lr: 0.010000
+[23:00:46.440] iteration 28: loss: 0.897617, mix_dice: 1.404628, mix_ce: 0.390607, lr: 0.010000
+[23:00:46.997] iteration 29: loss: 0.876674, mix_dice: 1.400662, mix_ce: 0.352687, lr: 0.010000
+[23:00:47.757] iteration 30: loss: 0.875556, mix_dice: 1.390078, mix_ce: 0.361033, lr: 0.010000
+[23:00:48.662] iteration 31: loss: 0.896847, mix_dice: 1.394782, mix_ce: 0.398912, lr: 0.010000
+[23:00:49.501] iteration 32: loss: 0.908515, mix_dice: 1.357812, mix_ce: 0.459219, lr: 0.010000
+[23:00:50.214] iteration 33: loss: 0.841939, mix_dice: 1.326669, mix_ce: 0.357209, lr: 0.010000
+[23:00:50.857] iteration 34: loss: 0.997997, mix_dice: 1.365245, mix_ce: 0.630750, lr: 0.010000
+[23:00:51.504] iteration 35: loss: 0.811316, mix_dice: 1.357489, mix_ce: 0.265142, lr: 0.010000
+[23:50:20.760] Namespace(root_path='../data/MS_CMRSEG/mscmrseg19_split2', exp='msc02/diffrect', model='unet', max_iterations=30000, batch_size=8, deterministic=1, base_lr=0.01, patch_size=[256, 256], seed=1337, u_weight=0.5, num_classes=4, img_channels=1, load=False, gpu='6', conf_thresh=0.8, labeled_bs=4, labeled_num=7, refine_start=1000, ema_decay=0.99, consistency_type='mse', consistency=0.1, consistency_rampup=200.0, image_size=[256, 256], base_chn_rf=64, ldm_beta_sch='cosine', ts=10, ts_sample=2, ref_consistency_weight=-1, no_color=False, no_blur=False, rot=359, optimizer='adamw', weight_decay=0.01, momentum=0.9, beta1=0.9, beta2=0.999, scheduler='cosine', warmup_epochs=5, min_lr=1e-06, lr_decay=0.1, lr_decay_epochs=10)
+[23:50:20.926] Start pre_training
+[23:50:20.926] 25 iterations per epoch
+[23:50:21.567] iteration 1: loss: 2.322350, mix_dice: 1.646775, mix_ce: 2.997925, lr: 0.010000
+[23:50:21.743] iteration 2: loss: 1.760476, mix_dice: 1.568000, mix_ce: 1.952953, lr: 0.010000
+[23:50:21.894] iteration 3: loss: 1.239934, mix_dice: 1.455298, mix_ce: 1.024570, lr: 0.010000
+[23:50:22.059] iteration 4: loss: 1.022870, mix_dice: 1.384249, mix_ce: 0.661492, lr: 0.010000
+[23:50:22.216] iteration 5: loss: 0.983442, mix_dice: 1.481379, mix_ce: 0.485504, lr: 0.010000
+[23:50:22.328] iteration 6: loss: 1.071841, mix_dice: 1.505012, mix_ce: 0.638670, lr: 0.010000
+[23:50:22.474] iteration 7: loss: 1.090372, mix_dice: 1.498818, mix_ce: 0.681925, lr: 0.010000
+[23:50:22.607] iteration 8: loss: 0.890583, mix_dice: 1.500342, mix_ce: 0.280824, lr: 0.010000
+[23:50:22.726] iteration 9: loss: 1.050119, mix_dice: 1.498941, mix_ce: 0.601298, lr: 0.010000
+[23:50:22.899] iteration 10: loss: 0.842922, mix_dice: 1.469439, mix_ce: 0.216405, lr: 0.010000
+[23:50:23.027] iteration 11: loss: 0.904315, mix_dice: 1.480985, mix_ce: 0.327646, lr: 0.010000
+[23:50:23.177] iteration 12: loss: 0.879261, mix_dice: 1.463764, mix_ce: 0.294759, lr: 0.010000
+[23:50:23.306] iteration 13: loss: 0.947665, mix_dice: 1.468685, mix_ce: 0.426644, lr: 0.010000
+[23:50:23.477] iteration 14: loss: 0.895528, mix_dice: 1.432053, mix_ce: 0.359003, lr: 0.010000
+[23:50:23.650] iteration 15: loss: 0.925516, mix_dice: 1.424811, mix_ce: 0.426221, lr: 0.010000
+[23:50:23.791] iteration 16: loss: 0.891681, mix_dice: 1.423582, mix_ce: 0.359780, lr: 0.010000
+[23:50:23.921] iteration 17: loss: 0.866737, mix_dice: 1.393221, mix_ce: 0.340252, lr: 0.010000
+[23:50:24.047] iteration 18: loss: 0.879241, mix_dice: 1.396509, mix_ce: 0.361973, lr: 0.010000
+[23:50:24.185] iteration 19: loss: 0.898713, mix_dice: 1.402602, mix_ce: 0.394824, lr: 0.010000
+[23:50:24.322] iteration 20: loss: 1.097224, mix_dice: 1.443750, mix_ce: 0.750699, lr: 0.010000
+[23:50:24.511] iteration 21: loss: 0.903519, mix_dice: 1.372980, mix_ce: 0.434059, lr: 0.010000
+[23:50:24.632] iteration 22: loss: 0.910814, mix_dice: 1.404450, mix_ce: 0.417178, lr: 0.010000
+[23:50:24.784] iteration 23: loss: 0.874540, mix_dice: 1.355628, mix_ce: 0.393453, lr: 0.010000
+[23:50:24.946] iteration 24: loss: 0.832063, mix_dice: 1.396545, mix_ce: 0.267582, lr: 0.010000
+[23:50:25.066] iteration 25: loss: 0.854173, mix_dice: 1.373334, mix_ce: 0.335013, lr: 0.010000
+[23:50:25.253] iteration 26: loss: 0.814050, mix_dice: 1.413508, mix_ce: 0.214593, lr: 0.010000
+[23:50:25.396] iteration 27: loss: 0.931380, mix_dice: 1.396393, mix_ce: 0.466367, lr: 0.010000
+[23:50:25.579] iteration 28: loss: 0.888888, mix_dice: 1.400715, mix_ce: 0.377060, lr: 0.010000
+[23:50:25.722] iteration 29: loss: 0.831328, mix_dice: 1.344009, mix_ce: 0.318647, lr: 0.010000
+[23:50:25.879] iteration 30: loss: 0.955982, mix_dice: 1.366479, mix_ce: 0.545486, lr: 0.010000
+[23:50:26.027] iteration 31: loss: 0.918474, mix_dice: 1.364121, mix_ce: 0.472828, lr: 0.010000
+[23:50:26.167] iteration 32: loss: 0.831119, mix_dice: 1.297462, mix_ce: 0.364776, lr: 0.010000
+[23:50:26.297] iteration 33: loss: 0.857707, mix_dice: 1.373881, mix_ce: 0.341533, lr: 0.010000
+[23:50:26.418] iteration 34: loss: 0.966386, mix_dice: 1.374183, mix_ce: 0.558589, lr: 0.010000
+[23:50:26.565] iteration 35: loss: 0.768882, mix_dice: 1.348133, mix_ce: 0.189631, lr: 0.010000
+[23:50:27.103] iteration 36: loss: 0.788845, mix_dice: 1.295396, mix_ce: 0.282294, lr: 0.010000
+[23:50:27.900] iteration 37: loss: 0.819400, mix_dice: 1.354570, mix_ce: 0.284230, lr: 0.010000
+[23:50:28.499] iteration 38: loss: 0.906769, mix_dice: 1.382198, mix_ce: 0.431340, lr: 0.010000
+[23:50:28.823] iteration 39: loss: 0.775320, mix_dice: 1.340303, mix_ce: 0.210337, lr: 0.010000
+[23:50:29.761] iteration 40: loss: 0.806839, mix_dice: 1.337749, mix_ce: 0.275928, lr: 0.010000
+[23:50:30.619] iteration 41: loss: 0.750085, mix_dice: 1.288827, mix_ce: 0.211343, lr: 0.010000
+[23:50:31.129] iteration 42: loss: 0.776482, mix_dice: 1.312690, mix_ce: 0.240274, lr: 0.010000
+[23:50:32.297] iteration 43: loss: 0.809378, mix_dice: 1.410747, mix_ce: 0.208010, lr: 0.010000
+[23:50:33.250] iteration 44: loss: 0.800708, mix_dice: 1.314279, mix_ce: 0.287137, lr: 0.010000
+[23:50:33.593] iteration 45: loss: 0.791423, mix_dice: 1.326247, mix_ce: 0.256598, lr: 0.010000
+[23:50:34.554] iteration 46: loss: 0.725004, mix_dice: 1.243120, mix_ce: 0.206887, lr: 0.009999
+[23:50:35.373] iteration 47: loss: 0.818305, mix_dice: 1.358515, mix_ce: 0.278096, lr: 0.009999
+[23:50:36.315] iteration 48: loss: 0.737250, mix_dice: 1.281727, mix_ce: 0.192772, lr: 0.009999
+[23:50:36.953] iteration 49: loss: 0.863650, mix_dice: 1.374030, mix_ce: 0.353270, lr: 0.009999
+[23:50:37.489] iteration 50: loss: 0.863581, mix_dice: 1.368193, mix_ce: 0.358968, lr: 0.009999
+[23:50:37.822] iteration 51: loss: 0.749264, mix_dice: 1.257509, mix_ce: 0.241019, lr: 0.009999
+[23:50:38.593] iteration 52: loss: 0.894093, mix_dice: 1.344843, mix_ce: 0.443343, lr: 0.009999
+[23:50:39.122] iteration 53: loss: 0.781765, mix_dice: 1.292919, mix_ce: 0.270611, lr: 0.009999
+[23:50:39.671] iteration 54: loss: 0.728191, mix_dice: 1.245212, mix_ce: 0.211169, lr: 0.009999
+[23:50:40.025] iteration 55: loss: 0.855427, mix_dice: 1.404903, mix_ce: 0.305950, lr: 0.009999
+[23:50:40.571] iteration 56: loss: 0.828231, mix_dice: 1.301444, mix_ce: 0.355018, lr: 0.009999
+[23:50:41.103] iteration 57: loss: 0.767493, mix_dice: 1.300642, mix_ce: 0.234343, lr: 0.009999
+[23:50:41.915] iteration 58: loss: 0.835518, mix_dice: 1.349882, mix_ce: 0.321154, lr: 0.009999
+[23:50:42.090] iteration 59: loss: 0.765869, mix_dice: 1.306683, mix_ce: 0.225054, lr: 0.009999
+[23:50:42.399] iteration 60: loss: 0.855414, mix_dice: 1.321206, mix_ce: 0.389623, lr: 0.009999
+[23:50:42.998] iteration 61: loss: 0.776735, mix_dice: 1.294110, mix_ce: 0.259361, lr: 0.009999
+[23:50:43.676] iteration 62: loss: 0.767086, mix_dice: 1.279204, mix_ce: 0.254968, lr: 0.009999
+[23:50:44.430] iteration 63: loss: 0.838636, mix_dice: 1.324496, mix_ce: 0.352775, lr: 0.009999
+[23:50:44.903] iteration 64: loss: 0.985719, mix_dice: 1.419120, mix_ce: 0.552318, lr: 0.009999
+[23:50:45.463] iteration 65: loss: 0.781799, mix_dice: 1.285312, mix_ce: 0.278286, lr: 0.009999
+[23:50:45.933] iteration 66: loss: 0.792840, mix_dice: 1.281581, mix_ce: 0.304100, lr: 0.009999
+[23:50:46.302] iteration 67: loss: 0.836747, mix_dice: 1.309210, mix_ce: 0.364284, lr: 0.009999
+[23:50:47.021] iteration 68: loss: 0.812126, mix_dice: 1.262679, mix_ce: 0.361574, lr: 0.009999
+[23:50:47.571] iteration 69: loss: 0.822062, mix_dice: 1.265064, mix_ce: 0.379061, lr: 0.009999
+[23:50:48.391] iteration 70: loss: 0.820489, mix_dice: 1.319793, mix_ce: 0.321184, lr: 0.009999
+[23:50:49.324] iteration 71: loss: 0.791377, mix_dice: 1.366860, mix_ce: 0.215894, lr: 0.009999
+[23:50:49.900] iteration 72: loss: 0.701387, mix_dice: 1.257925, mix_ce: 0.144849, lr: 0.009999
+[23:50:50.375] iteration 73: loss: 0.822584, mix_dice: 1.351824, mix_ce: 0.293344, lr: 0.009999
+[23:50:50.842] iteration 74: loss: 0.797383, mix_dice: 1.464981, mix_ce: 0.129785, lr: 0.009999
+[23:50:51.215] iteration 75: loss: 0.711134, mix_dice: 1.328044, mix_ce: 0.094224, lr: 0.009999
+[23:50:51.769] iteration 76: loss: 0.770312, mix_dice: 1.420569, mix_ce: 0.120055, lr: 0.009999
+[23:50:51.921] iteration 77: loss: 0.859990, mix_dice: 1.409176, mix_ce: 0.310803, lr: 0.009999
+[23:50:52.612] iteration 78: loss: 0.854400, mix_dice: 1.395692, mix_ce: 0.313108, lr: 0.009998
+[23:50:53.346] iteration 79: loss: 0.834187, mix_dice: 1.363997, mix_ce: 0.304378, lr: 0.009998
+[23:50:53.689] iteration 80: loss: 0.736318, mix_dice: 1.285350, mix_ce: 0.187287, lr: 0.009998
+[23:50:54.221] iteration 81: loss: 0.805600, mix_dice: 1.356331, mix_ce: 0.254869, lr: 0.009998
+[23:50:54.834] iteration 82: loss: 0.744114, mix_dice: 1.293220, mix_ce: 0.195008, lr: 0.009998
+[23:50:55.443] iteration 83: loss: 0.786638, mix_dice: 1.268058, mix_ce: 0.305219, lr: 0.009998
+[23:50:56.093] iteration 84: loss: 0.804189, mix_dice: 1.264087, mix_ce: 0.344292, lr: 0.009998
+[23:50:56.644] iteration 85: loss: 0.795979, mix_dice: 1.255460, mix_ce: 0.336498, lr: 0.009998
+[23:50:56.963] iteration 86: loss: 0.773392, mix_dice: 1.227662, mix_ce: 0.319122, lr: 0.009998
+[23:50:57.453] iteration 87: loss: 0.810842, mix_dice: 1.258935, mix_ce: 0.362748, lr: 0.009998
+[23:50:57.775] iteration 88: loss: 0.796637, mix_dice: 1.328294, mix_ce: 0.264980, lr: 0.009998
+[23:50:58.452] iteration 89: loss: 0.828061, mix_dice: 1.250518, mix_ce: 0.405605, lr: 0.009998
+[23:50:58.749] iteration 90: loss: 0.837154, mix_dice: 1.397063, mix_ce: 0.277244, lr: 0.009998
+[23:50:59.251] iteration 91: loss: 0.740251, mix_dice: 1.249784, mix_ce: 0.230718, lr: 0.009998
+[23:50:59.794] iteration 92: loss: 0.767756, mix_dice: 1.300024, mix_ce: 0.235487, lr: 0.009998
+[23:51:00.251] iteration 93: loss: 0.747397, mix_dice: 1.280523, mix_ce: 0.214272, lr: 0.009998
+[23:51:01.044] iteration 94: loss: 0.835957, mix_dice: 1.379545, mix_ce: 0.292369, lr: 0.009998
+[23:51:01.524] iteration 95: loss: 0.724452, mix_dice: 1.306949, mix_ce: 0.141955, lr: 0.009998
+[23:51:01.732] iteration 96: loss: 0.804285, mix_dice: 1.319813, mix_ce: 0.288756, lr: 0.009998
+[23:51:01.854] iteration 97: loss: 0.810328, mix_dice: 1.344837, mix_ce: 0.275819, lr: 0.009998
+[23:51:02.363] iteration 98: loss: 0.754790, mix_dice: 1.244815, mix_ce: 0.264765, lr: 0.009998
+[23:51:02.911] iteration 99: loss: 0.854448, mix_dice: 1.317509, mix_ce: 0.391388, lr: 0.009998
+[23:51:03.666] iteration 100: loss: 0.832547, mix_dice: 1.304188, mix_ce: 0.360906, lr: 0.009998
+[23:51:04.242] iteration 101: loss: 0.760895, mix_dice: 1.221852, mix_ce: 0.299938, lr: 0.009997
+[23:51:04.685] iteration 102: loss: 0.853665, mix_dice: 1.285581, mix_ce: 0.421749, lr: 0.009997
+[23:51:05.058] iteration 103: loss: 0.752064, mix_dice: 1.225871, mix_ce: 0.278256, lr: 0.009997
+[23:51:05.632] iteration 104: loss: 0.794208, mix_dice: 1.285097, mix_ce: 0.303319, lr: 0.009997
+[23:51:05.935] iteration 105: loss: 0.791893, mix_dice: 1.235417, mix_ce: 0.348369, lr: 0.009997
+[23:51:06.237] iteration 106: loss: 0.792164, mix_dice: 1.329800, mix_ce: 0.254528, lr: 0.009997
+[23:51:06.713] iteration 107: loss: 0.901147, mix_dice: 1.321935, mix_ce: 0.480359, lr: 0.009997
