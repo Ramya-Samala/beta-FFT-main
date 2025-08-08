@@ -1,0 +1,17 @@
+# For CUDA 11.8, install torch and torchvision with the following command:
+# pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+torch
+torchvision
+python-dateutil
+tensorboardX
+tqdm
+scikit-image
+einops
+h5py
+medpy
+opencv-python
+timm
+yacs
+Numpy
+matplotlib
